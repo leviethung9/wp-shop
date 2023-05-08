@@ -1,0 +1,1 @@
+dùng file shop.sql để nhập database sau đó xóa hoặc để lại và chạy project

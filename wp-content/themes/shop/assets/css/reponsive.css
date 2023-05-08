@@ -1,0 +1,378 @@
+@media screen and (max-width: 1024px) {
+    .box-text-slider h1 {
+        font-size: 70px;
+        line-height: 75px;
+        /* font-size: 90px; */
+    }
+
+    .box-text-banner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .menu-interact ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu-interact ul li {
+        padding: 5px;
+    }
+
+    .list-item-logo-bank {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item-transfer:first-child {
+        margin: 0px 3px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .hd__main {
+        display: none;
+    }
+
+    .hd__top--left,
+    .hd__top--center {
+        width: 50%;
+    }
+
+    .hd__top--menu {
+        display: none;
+    }
+
+    .hd-tablet-mb {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2%;
+        height: 70px;
+
+    }
+
+    .flex-left,
+    .flex-center,
+    .flex-right {
+        width: 33%;
+    }
+
+    .flex-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex-right {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hd-icon {
+        padding-right: 15px;
+    }
+
+    .btn-hamber {
+        color: var(--color-black1);
+        font-size: 20px;
+    }
+
+    #menu-mb {
+        width: 0;
+        position: fixed;
+        z-index: 4;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: var(--color-white);
+        overflow-x: hidden;
+        transition: 0.5s;
+        box-shadow: 1px 1px 1px grey;
+        color: var(--color-black1);
+    }
+    .main-menu-mb a{
+        color: var(--color-black1);
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .closebtn {
+        position: absolute;
+        top: 0%;
+        right: 5%;
+        font-size: 40px;
+        color: var(--color-black1);
+    }
+
+    .main-menu-mb {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 100%;
+    }
+
+    .custom-menu-ul li {
+        padding: 15px 0px!important;
+        border-bottom: 1PX solid var(--color-black1);
+    }
+    .custom-submenu-mb{
+        display: none;
+    }
+    .main-menu-mb .main-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-menu-active{
+        display: block;
+    }
+    .menu-item-has-children>a:after {
+        content: '\f107';
+        font-family: 'FontAwesome';
+        margin-left: 5px;
+        font-size: 0.6em;
+        transform: rotate(-90deg);
+        transition: transform 0.2s ease-in-out;
+      }
+      
+      .menu-item-has-children.show-submenu > a:after {
+        transform: rotate(0deg);
+      }
+    .custom-submenu-mb li a{
+        padding-left: 10px;
+    }
+    .openbtn {
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 25px;
+    }
+    .slideshow-container {
+        height: 600px;
+    }
+    .btn-shop-now {
+        width: 130px;
+        height: 24px;
+        line-height: 24px;
+        
+    }
+    .box-text-slider h1 {
+        font-size: 52px;
+        line-height: 52px;
+        /* font-size: 90px; */
+    }
+    .box-text-banner {
+        position: absolute;
+        top: 50%;
+        right: 105px;
+        background-color: var(--color-white);
+        border-radius: 20px;
+        width: 383px;
+        text-align: center;
+        padding: 10px;
+    }
+    .footer-col {
+        flex: 1 0 50%;
+        max-width: 50%;
+        box-sizing: border-box;
+        padding: 0 15px;
+    }
+    .pd-tablet{
+        padding-top: 15px;
+    }
+    .top-menu-mb{
+        position: absolute;
+        top: 65%;
+        left: 5%;
+    }
+    .top-menu-mb li a {
+        color: var(--color-black1);
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .hd-icon-mb{
+        position: absolute;
+        top: 80%;
+        left: 5%;
+    }
+    .hd-icon-mb a{
+        color: var(--color-black1);
+        font-size: 20px;
+        margin: 2px 5px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .hd__top--phone a {
+        font-size: 12px;
+    }
+    .hd__top--phone a:last-child {
+        padding-left: 5px;
+    }
+    .slogan {
+        color: var(--color-black2);
+        font-size: 12px;
+    }
+    .signup--text {
+        text-decoration: underline;
+        font-size: 12px;
+        color: var(--color-black1);
+        font-weight: bold;
+    }
+    .banner img{
+        height: 550px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hd__top{
+        height: 80px;
+    }
+    .hd__top--left, .hd__top--center {
+        width: 100%;
+    }
+    .hd__top{
+        border-bottom: 1px solid var(--color-gray1);
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        padding: 0px 2%;
+        text-align: center;
+    }
+    .icon-show{
+        display: none;
+    }
+    .hd-icon{
+        display: none;
+    }
+    .icon-search{
+        display: block;
+        color: var(--color-black1);
+        font-size: 25px;
+    }
+    .prev, .next {
+        cursor: pointer;
+        width: auto;
+        color: var(--color-black1);
+        font-weight: bold;
+        font-size: 14px;
+        transition: 0.6s ease;
+        border-radius: 50%;
+        user-select: none;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        background-color: var(--color-gray2);
+    }
+    .slideshow-container {
+        height: 450px;
+    }
+    .box-text-slider {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        max-width: 65%;
+        width: 65%;
+        z-index: 3;
+    }
+    .box-text-slider h5 {
+        color: var(--color-white);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 16px;
+        padding: 12px 0px;
+    }
+    .box-text-slider h1 {
+        font-size: 30px;
+        line-height: 43px;
+        padding: 5px 0px;
+        /* font-size: 90px; */
+    }
+    .box-text-banner {
+        position: absolute;
+        top: 50%;
+        /* right: 105px; */
+        background-color: var(--color-white);
+        border-radius: 20px;
+        width: 80%;
+        text-align: center;
+        padding: 10px;
+    }
+    .banner img {
+        height: 324px;
+        object-fit: cover;
+    }
+    .mb-none{
+        display: none;
+    }
+    .mb-block{
+        display: block;
+    }
+    .box-circle-icon {
+        width: 25px;
+        height: 25px;
+        border: 1px solid var(--color-black2);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 1px;
+    }
+    .footer-col-full{
+        width: 100%;
+    }
+    .form-lh input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {
+        background-color: var(--color-white);
+        border: 1px solid var(--color-gray2);
+        border-radius: 30px;
+        padding: 0px 0px 0px 10px;
+        width: 245px;
+        height: 35px;
+        margin-right: 5px;
+    }
+    .form-lh input.wpcf7-form-control.has-spinner.wpcf7-submit {
+        background-color: var(--color-black1);
+        color: var(--color-white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 10px;
+        width: 123px;
+        height: 36px;
+        padding: 5px;
+        border-radius: 30px;
+    }
+    .list-item-logo-bank {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .prev, .next {
+        display: none;
+    }
+    .footer-col {
+        flex: 1 0 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 0 15px;
+    }
+    .footer-col {
+        flex: 1 0 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 10px 5px;
+    }
+   
+}
